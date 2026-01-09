@@ -12,11 +12,7 @@ header{
 body{
     background-color: red;
 }
-.logo{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 .top-logo{
     margin: 16px ;
    
@@ -48,4 +44,10 @@ body{
 }
 .btn:hover{
     background: rgb(2, 97, 134);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
