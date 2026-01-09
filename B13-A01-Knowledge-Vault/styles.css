@@ -53,7 +53,7 @@ nav{
 
   background-image:
     linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-    url("../B13-A01-Knowledge-Vault/assets/hero-bg.png");
+    url("assets/hero-bg.png");
 
   background-size: cover;
   background-position: center;
