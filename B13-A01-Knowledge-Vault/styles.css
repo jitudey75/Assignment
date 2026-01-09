@@ -188,7 +188,7 @@ nav{
   width: 48px;
   height: 48px;
   margin: 0 auto 16px;
-  background: #ef4444; /* Figma red */
+  background: #ef4444;
   border-radius: 50%;
 
   display: flex;
@@ -214,5 +214,188 @@ nav{
   color: #64748b;
   line-height: 1.6;
 }
+.solution-section {
+  padding: 100px 20px;
+  background: #ffffff;
+  font-family: Inter, sans-serif;
+}
+
+.solution-container {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.solution-image img {
+  max-width: 100%;
+  height: auto;
+}
+.solution-content {
+  max-width: 480px;
+}
+
+.solution-content .label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #308868;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+.solution-content h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 16px;
+}
+
+.solution-content p {
+  font-size: 15px;
+  color: #475569;
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+.solution-content ul {
+  list-style: none;
+  padding: 0;
+}
+.solution-content ul li {
+   display: flex;
+  align-items: flex-start;
+  gap: 10px;
+
+  font-size: 14px;
+  color: #0f172a;
+  margin-bottom: 12px;
+
+  padding-left: 0;
+  position: static;
+}
+.solution-content ul li img {
+  width: 16px;
+  height: 16px;
+  margin-top: 3px;
+}
+.cta-section {
+  padding: 100px 20px;
+  background: #ffffff;
+  font-family: Inter, sans-serif;
+}
+.cta-box {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 20px;
+
+  background: #fbfbf8;
+  border-radius: 16px;
+
+  text-align: center;
+}
+.cta-box h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+.cta-text {
+  font-size: 15px;
+  color: #64748b;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 12px 20px;
+  background: #308868; 
+  color: #ffffff;
+
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+
+  border-radius: 6px;
+}
+
+.cta-btn:hover {
+  opacity: 0.9;
+}
+.cta-note {
+  font-size: 12px;
+  color: #94a3b8;
+  margin-top: 16px;
+}
+.site-footer {
+  background: #041c33;      
+  padding: 60px 20px 30px;
+  font-family: Inter, sans-serif;
+  color: #cbd5e1;
+}
+
+.footer-top {
+  max-width: 1100px;
+  margin: 0 auto 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-brand img {
+  height: 36px;
+}
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-social h4 {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.social-circle {
+  width: 42px;
+  height: 42px;
+  background: #ffffff;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+}
+
+.social-circle i {
+  color: #000000;
+  font-size: 18px;
+}
+
+.footer-divider {
+  max-width: 1100px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 0 auto 16px;
+}
+.footer-copy {
+  text-align: center;
+  font-size: 12px;
+  color: #94a3b8;
+}
+
 
 
